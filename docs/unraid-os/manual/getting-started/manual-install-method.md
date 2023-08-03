@@ -4,10 +4,10 @@ If for some reason the USB Flash Creator tool cannot be used, or your USB flash 
 it is possible to manually format and prepare a bootable USB flash device.
 **Note: this method only works for devices 32GB and _smaller_.**
 
-- Plug the USB flash device into your Mac or PC.
+- Plug the USB flash device into your Mac, PC, or Linux computer.
 - Format the device using the FAT32 file system. It must **not** be
   ex-FAT or NTFS. If your drive is larger than 32GB then you need to use
-  a 3rd party tool (e.g. Rufus) to format it to FAT32 as Windows will
+  a 3rd party tool (e.g. Rufus, dd) to format it to FAT32 as Windows will
   not give this as an option on drives larger than 32GB.
 - Set the ‘volume label’ to `UNRAID` (case-sensitive, use all caps).
 - [Go to the downloads page.](http://lime-technology.com/download/) to
